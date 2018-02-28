@@ -335,6 +335,51 @@ lolin32.menu.UploadSpeed.512000.upload.speed=512000
 
 ##############################################################
 
+##############################################################
+
+dduino32.name=Wemos Lolin32 (D-Duino-32/HW-I2C) 
+
+dduino32.upload.tool=esptool
+dduino32.upload.maximum_size=1310720
+dduino32.upload.maximum_data_size=294912
+dduino32.upload.wait_for_upload_port=true
+
+dduino32.serial.disableDTR=true
+dduino32.serial.disableRTS=true
+
+dduino32.build.mcu=esp32
+dduino32.build.core=esp32
+dduino32.build.variant=dduino32
+dduino32.build.board=dduino32
+
+dduino32.build.f_cpu=240000000L
+dduino32.build.flash_mode=dio
+dduino32.build.flash_size=4MB
+dduino32.build.boot=dio
+dduino32.build.partitions=default
+
+dduino32.menu.FlashFreq.80=80MHz
+dduino32.menu.FlashFreq.80.build.flash_freq=80m
+dduino32.menu.FlashFreq.40=40MHz
+dduino32.menu.FlashFreq.40.build.flash_freq=40m
+
+dduino32.menu.UploadSpeed.921600=921600
+dduino32.menu.UploadSpeed.921600.upload.speed=921600
+dduino32.menu.UploadSpeed.115200=115200
+dduino32.menu.UploadSpeed.115200.upload.speed=115200
+dduino32.menu.UploadSpeed.256000.windows=256000
+dduino32.menu.UploadSpeed.256000.upload.speed=256000
+dduino32.menu.UploadSpeed.230400.windows.upload.speed=256000
+dduino32.menu.UploadSpeed.230400=230400
+dduino32.menu.UploadSpeed.230400.upload.speed=230400
+dduino32.menu.UploadSpeed.460800.linux=460800
+dduino32.menu.UploadSpeed.460800.macosx=460800
+dduino32.menu.UploadSpeed.460800.upload.speed=460800
+dduino32.menu.UploadSpeed.512000.windows=512000
+dduino32.menu.UploadSpeed.512000.upload.speed=512000
+
+##############################################################
+
 pocket_32.name=Dongsen Tech Pocket 32
 
 pocket_32.upload.tool=esptool
